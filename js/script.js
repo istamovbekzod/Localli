@@ -278,6 +278,12 @@ function tip(){
 	});
 }
 
+document.addEventListener("DOMContentLoaded", function(e) {
+		ConveyThis_Initializer.init({
+			api_key: "pub_185bb242b41d3cb7c87fc41d4564b41c"
+		});
+	});
+
 $(document).ready(function() {
 	$('.questions__value').click(function(event){
 		if($('.questions__body').hasClass('one')) {
